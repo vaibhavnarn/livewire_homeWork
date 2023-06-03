@@ -1,0 +1,33 @@
+#mainpage{
+    width: 200px;
+    height:150px;
+    margin: auto;
+    border: 20px solid black;
+
+
+
+}
+.pimg{
+    width: 100px;
+    height:100px;
+
+
+}
+.block1{
+    width: 50pxpx;
+    height:25px;
+
+}
+.block2{
+    width: 80px;
+    height:40px;
+    justify-content: space-between ;
+    
+
+}
+.ratingimg{
+    width: 40px;
+    height:20px;
+    
+
+}
