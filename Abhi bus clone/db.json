@@ -1,0 +1,111 @@
+{
+  "entry": [
+    {
+      "bus": "Purple",
+      "name": "Vaibhav Narnaware",
+      "pass": "25252",
+      "age": "25",
+      "email": "nilesh@DFDJ",
+      "number": "9822565252",
+      "id": 1
+    },
+    {
+      "bus": "Rajkaml",
+      "name": "Kutika Narnaware",
+      "pass": "52565",
+      "age": "22",
+      "email": "jjjjkmkojokjo@55",
+      "number": "9752625296",
+      "id": 4
+    },
+    {
+      "bus": "abhi",
+      "name": "akash meshram",
+      "pass": "65652",
+      "age": "26",
+      "email": "jkvkdjs@yahoo.com",
+      "number": "9858525251",
+      "id": 5
+    },
+    {
+      "bus": "manish ganvir",
+      "name": "mukesh bivne",
+      "pass": "2525",
+      "age": "26",
+      "email": "heaad@ff",
+      "number": "2525625262",
+      "id": 6,
+      "type": "NONAC"
+    },
+    {
+      "bus": "gaurav",
+      "name": "gaurav gajbhiye",
+      "pass": "52525",
+      "age": "26",
+      "email": "555444@vvd",
+      "number": "2525252525",
+      "type": "AC ",
+      "id": 7
+    },
+    {
+      "bus": "yoyo",
+      "name": "kanchan meshram",
+      "pass": "252852",
+      "age": "26",
+      "email": "vndvkj@gmail.com",
+      "number": "7852521525",
+      "type": "AC ",
+      "id": 8
+    }
+  ],
+  "hotelentry": [
+    {
+      "hotelname": "Trident Hotel",
+      "namme": "",
+      "passs": "52125",
+      "member": "",
+      "idproof": "adhar",
+      "mnumber": "25",
+      "ttypet": "AC",
+      "gmail": "Akahk@meshram",
+      "nummbbr": "5252525252",
+      "id": 9
+    },
+    {
+      "hotelname": "Hotel orient",
+      "namme": "Ramesh meshram",
+      "passs": "7458",
+      "member": "",
+      "idproof": "adhar",
+      "age": "61",
+      "ttypet": "NON AC",
+      "gmail": "Akahk@meshram",
+      "nummbbr": "25245325262",
+      "id": 10
+    },
+    {
+      "hotelname": "Hotel Trident2",
+      "namme": "Ramesh meshram bhau",
+      "passs": "525654",
+      "member": "10",
+      "idproof": "adhar",
+      "age": "64",
+      "ttypet": "AC",
+      "gmail": "Rameshhirekar@gmail.com",
+      "nummbbr": "854545412",
+      "id": 11
+    },
+    {
+      "hotelname": "Hotel Varient",
+      "namme": "juhi and chwala",
+      "passs": "417452",
+      "member": "65",
+      "idproof": "voterid",
+      "age": "36",
+      "ttypet": "NON AC",
+      "gmail": "Babahirekarjuhi@gmail.com",
+      "nummbbr": "4121521252",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/bus.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <script src="https://kit.fontawesome.com/6c9a0d2ccf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <div id="root"></div>
+    <h2 id="nmk">Welcome to the registration of bus page</h2>
+    <form action="" id="sform">
+        <label for="">ENTER BUS NAME</label>
+        <input type="text" name="eemail" id="email">
+        <br>
+        
+        <select name="typet" id="">
+            <option value="">SELECT OPTION</option>
+            <option value="AC ">AC TYPE</option>
+            <option value="NONAC">NONAC TYPE</option>
+        </select>
+        <br>
+        <br>
+       
+       
+        <label for="">ENTER FULL NAME</label>
+        <input type="text" name="fname" id="fname">
+        <label for="">ENTER PASSWORD</label>
+        <input type="text" name="agee" id="age">
+        <label for="">AGE</label>
+        <input type="number" name="llname" id="lname">
+        <label for="">EMAIL</label>
+        <input type="text" name="mail" id="email">
+        <label for="">ENTER MOBILE NUMBER</label>
+        <input type="number" name="numb" id="mobile">
+        <input type="submit" onclick="getdata()">
+    </form>
+    <!-- /////////////////////////////////////////////////////// -->
+
+    <div>
+        <h2 id="nm">Update data</h2>
+        <form action="" id="forms">
+            <label for="">ENTER ID</label>
+            <input type="text" name="idd" id="email">
+            <label for="">ENTER BUS NAME</label>
+            <input type="text" name="eemail" id="email">
+            <br>
+            
+            <select name="typet" id="">
+                <option value="">SELECT OPTION</option>
+                <option value="AC">AC TYPE</option>
+                <option value="NONAC">NONAC TYPE</option>
+            </select>
+            <br>
+            <br>
+           
+           
+            <label for="">ENTER FULL NAME</label>
+            <input type="text" name="fname" id="fname">
+            <label for="">ENTER PASSWORD</label>
+            <input type="text" name="agee" id="age">
+            <label for="">AGE</label>
+            <input type="number" name="llname" id="lname">
+            <label for="">EMAIL</label>
+            <input type="text" name="mail" id="email">
+            <label for="">ENTER MOBILE NUMBER</label>
+            <input type="number" name="numb" id="mobile">
+            <input  type="submit" onclick="updatedata()">
+        </form>
+    </div>
+
+    <div id="hgf">
+        <h2 id="nms">Delete data</h2>
+       <input  type="text" id="deleteid" placeholder="deletedata">
+       <button id="bns" onclick="deletedata()">click to delete</button>
+    </div>
+
+
+    
+    <a id="bn" href="../index.html">Go to home page</a>
+        
+        
+       
+       
+        
+</body>
+</html>
+<script src="../script/bus.js" type="module"></script>

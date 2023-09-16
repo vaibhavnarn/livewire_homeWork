@@ -1,0 +1,152 @@
+#maincont{
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    justify-content: space-between;
+    
+  
+ }
+ .pic{
+     height: 57px;
+     margin-left: 40px;
+ }
+ #links1{
+     margin-left: 590px;
+ 
+    
+    }
+ #maincont1{
+     margin-bottom: 300px;
+ }
+ .li1{
+     color:#5d5d5d;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 500;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 19px;
+      text-decoration: none;
+      margin-left: 10px;
+      
+    
+ }
+ .li2{
+     color:#5d5d5d;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 15px;
+     line-height: 19px;
+     text-decoration: none;
+     /* padding: 20px; */
+     margin-left: 20px;
+    
+ }
+ .li3{
+     color:#5d5d5d;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 15px;
+     line-height: 19px;
+     text-decoration: none;
+     
+     
+ }
+ .li4{
+     color:#5d5d5d;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 15px;
+     line-height: 19px;
+     text-decoration: none;
+     
+     
+ }
+ 
+ #links3{
+     margin-right: 40px;
+     
+    }
+ .butt1{
+ border: 0px;
+ color:#c60001;
+ }
+ .butt2{
+ border: 0px;
+ color: #c60001;
+ }
+ #forms{
+    width: 25%;
+    padding: 25px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: rgb(0, 255, 98);
+    padding-left: 20px;
+   
+}
+#forms > input{
+    margin: 10px 10px;
+    width: 95%;
+   
+    
+   
+}
+#nmk{
+    position: relative;
+    left: 36%;
+    color: rgb(38, 0, 255);
+}
+#bn{
+    font-size: 21px;
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+   
+   
+ }
+ #nm{
+    position: relative;
+    left: 44%;
+    color: rgb(38, 0, 255);
+    margin-top: 50px;
+    margin-bottom: -35px;
+}
+#formss{
+    width: 25%;
+    padding: 15px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: rgb(0, 255, 76);
+    margin-top: 70px;
+    
+}
+#formss > input{
+    margin: 10px 10px;
+    width: 90%;
+    height: 25px;
+}
+
+#nms{
+    position: relative;
+    left: 46%;
+    color: rgb(38, 0, 255);
+   
+} 
+#deleteid{
+    position: relative;
+    left: 38%;
+   background-color: rgb(0, 225, 255);
+    /* margin-top: -30px; */
+    height: 30px;
+    border: 0px;
+}
+#bns{
+    position: relative;
+    left: 40%;
+   background-color: rgb(0, 225, 255);
+    /* margin-top: -20px; */
+    height: 30px;
+    color: #13814a;
+    border: 0px;
+} 

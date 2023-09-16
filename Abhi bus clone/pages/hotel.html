@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/hotel.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+    <script src="https://kit.fontawesome.com/6c9a0d2ccf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+     <div id="flex"></div>
+    <h2 id="nmk">Welcome to the registration of hotel page</h2>
+    <form action="" id="forms">
+        <label for="">ENTER HOTEL NAME</label>
+        <br>
+        <input type="text" name="eemail" id="email">
+        <br>
+        <label for="">ENTER FULL NAME</label>
+        <input type="text" name="fnam" id="fname">
+        <br>
+        <label for="">ENTER PASSWORD</label>
+        <input type="text" name="agee" id="fname">
+        <br>
+        <select name="typett" id="">
+            <option value="">SELECT OPTION</option>
+            <option value="AC">AC ROOM</option>
+            <option value="NON AC">NON AC ROOM</option>
+        </select>
+        <br>
+        <br>
+
+
+        <label for="">NUMBER OF MEMBERS</label>
+        <input type="number" name="lnam" id="lname">
+        <br>
+        <label for="">IDPROOF</label>
+        <input type="text" name="mail" id="email">
+        <br>
+        <label for="">AGE</label>
+        <input type="number" name="numb" id="lname">
+        <br>
+        <label for="">EMAIL</label>
+        <input type="text" name="gmai" id="email">
+        <br>
+        <label for="">ENTER MOBILE NUMBER</label>
+        
+        <input type="number" name="bbr" id="mobile">
+        <br>
+        <input type="submit" onclick="getdata()">
+    </form>
+
+    <div>
+        <h2 id="nm">Update data</h2>
+
+        <form action="" id="formss">
+            <label for="">ENTER ID</label>
+            <input type="text" name="idd" id="email">
+            <label for="">ENTER HOTEL NAME</label>
+            <br>
+            <input type="text" name="eemail" id="email">
+            <br>
+            <label for="">ENTER FULL NAME</label>
+            <input type="text" name="fnam" id="fname">
+            <br>
+            <label for="">ENTER PASSWORD</label>
+            <input type="text" name="agee" id="fname">
+            <br>
+            <select name="typett" id="">
+                <option value="">SELECT OPTION</option>
+                <option value="AC">AC ROOM</option>
+                <option value="NON AC">NON AC ROOM</option>
+            </select>
+            <br>
+            <br>
+    
+    
+            <label for="">NUMBER OF MEMBERS</label>
+            <input type="number" name="lnam" id="lname">
+            <br>
+            <label for="">IDPROOF</label>
+            <input type="text" name="mail" id="email">
+            <br>
+            <label for="">AGE</label>
+            <input type="number" name="numb" id="lname">
+            <br>
+            <label for="">EMAIL</label>
+            <input type="text" name="gmai" id="email">
+            <br>
+            <label for="">ENTER MOBILE NUMBER</label>
+            
+            <input type="number" name="bbr" id="mobile">
+            <br>
+            <input type="submit"  onclick="updateData()">
+        </form>
+    </div>
+
+    <div>
+        <h2 id="nms">Delete data</h2>
+        <input  type="text" id="deleteid" placeholder="deletedata">
+        <button id="bns" onclick="deletedata()">click to delete</button>
+    </div>
+
+
+
+    
+    <a id="bn" href="../index.html">Go to homepage</a>
+    
+</body>
+</html>
+<script src="../script/hotel.js" type="module"></script>
+
